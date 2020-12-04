@@ -20,6 +20,6 @@ function captureSuccess(s) {
 	v += "<source src='" + s[0].fullPath + "' type='video/mp4'>";
 	v += "</video>";
 	document.querySelector("#videoArea").innerHTML = v;
-	document.images.logo.width=200;
-	document.images.logo.height=200;
+	document.images.logo.width=50;
+	document.images.logo.height=50;
 }
